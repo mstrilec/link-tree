@@ -1,0 +1,91 @@
+html {
+    background: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-size: 24px;
+
+    width: 1920px;
+    height: 920px;
+    line-height: 72px;
+    font-family: 'Inter', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.avatar {
+    box-sizing: border-box;
+
+    display: block;
+    text-align: center;
+
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.con-avatar {
+    width: 220.39px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+.container-links {
+    position: absolute;
+    text-align: center;
+}
+
+
+  /* Rectangle */
+
+.rectangle {
+    margin-left: 700px;
+    margin-top: 80px;
+    background: salmon;
+    width: 520px;
+    height: 80px;
+    border-radius: 18px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.steam {
+    background: #838383;
+    width: 520px;
+    height: 80px;
+    border-radius: 18px;
+}
+
+.github {
+    background: #5C6BC0;
+    width: 520px;
+    height: 80px;
+    border-radius: 18px;
+}
+
+.discord {
+    background: #5C6BC0;
+    width: 520px;
+    height: 80px;
+    border-radius: 18px;
+}
+
+.spotify {
+    background: #12C64B;
+    width: 520px;
+    height: 80px;
+    border-radius: 18px;
+}
